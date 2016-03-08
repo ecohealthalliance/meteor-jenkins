@@ -2,7 +2,7 @@ Package.describe({
   name: 'dannysullivan:jenkins',
   version: '0.0.1',
   summary: 'Wrapper for the Jenkins remote access API',
-  git: '',
+  git: 'https://github.com/ecohealthalliance/meteor-jenkins.git',
   documentation: 'README.md'
 });
 
