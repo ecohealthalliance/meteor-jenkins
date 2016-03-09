@@ -1,6 +1,6 @@
 Package.describe({
   name: 'eha:jenkins',
-  version: '0.0.1',
+  version: '1.0.0',
   summary: 'Wrapper for the Jenkins remote access API',
   git: 'https://github.com/ecohealthalliance/meteor-jenkins.git',
   documentation: 'README.md'
