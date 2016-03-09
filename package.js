@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'dannysullivan:jenkins',
+  name: 'eha:jenkins',
   version: '0.0.1',
   summary: 'Wrapper for the Jenkins remote access API',
   git: 'https://github.com/ecohealthalliance/meteor-jenkins.git',
@@ -15,7 +15,7 @@ Package.onUse(function(api) {
 });
 
 Package.on_test(function (api) {
-  api.use(['dannysullivan:jenkins', 'tinytest', 'test-helpers'], ['server']);
+  api.use(['eha:jenkins', 'tinytest', 'test-helpers'], ['server']);
   api.use('froatsnook:request@2.67.0')
   api.add_files('tests/jenkins-tests.js', ['server']);
 });
