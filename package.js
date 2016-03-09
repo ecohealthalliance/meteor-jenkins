@@ -17,5 +17,5 @@ Package.onUse(function(api) {
 Package.on_test(function (api) {
   api.use(['dannysullivan:jenkins', 'tinytest', 'test-helpers'], ['server']);
   api.use('froatsnook:request')
-  api.add_files('tests/jenkins-test.js', ['server']);
+  api.add_files('tests/jenkins-tests.js', ['server']);
 });
