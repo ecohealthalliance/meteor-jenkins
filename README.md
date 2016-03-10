@@ -1,4 +1,4 @@
-# meteor-jenkins
+# meteor-jenkins ![Build Status](https://travis-ci.org/ecohealthalliance/meteor-jenkins.svg?branch=master "Build Status")
 A Jenkins API wrapper for Meteor
 
 ## Setup
